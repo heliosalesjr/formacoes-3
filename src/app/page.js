@@ -1,5 +1,5 @@
 import Navbar from "@/components/Navbar"
-import Hero from "@/components/Hero"
+import HeroMain from "@/components/HeroMain"
 import Footer from "@/components/Footer"
 import ProgressBar from "@/components/ProgressBar"
 import Modulo3ContentSection from "@/components/Modulo3ContentSection"
@@ -11,9 +11,10 @@ export default function Home() {
       <Navbar />
       <ProgressBar />
       <main >
-      <Hero
-        title="CURSO DE FORMAÇÃO"
-        subtitle="Módulo 3 - Como planejar aulas e orientar os estudantes a realizar os projetos em sala de aula"
+      <HeroMain
+          title="Formação Material de Educação Financeira"
+
+          
         />
         
       <Modulo3ContentSection />
