@@ -12,7 +12,7 @@ export default function Monitoramento() {
       <main >
         <Hero
                 title="Monitoramento"
-                subtitle="Como funciona o programa “Aprendendo a lidar com dinheiro” da BEĨ Educação e a metodologia de aplicação do material"
+                subtitle="Acompanhando a execução das atividades e analisando o quanto os objetivos vêm sendo atingidos."
                 />
        
         <MonitoramentoContentSection />

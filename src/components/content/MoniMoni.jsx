@@ -69,7 +69,7 @@ const MoniMoni = () => {
             >
               <div className="max-w-3xl">
                 <h2 className="text-2xl md:text-3xl font-bold mb-4">
-                O que é o monitoramento pedagógico em Aprendizagem Baseada em Projetos
+                O que é o monitoramento pedagógico em Aprendizagem Baseada em Projetos?
                 </h2>
                 
               </div>
@@ -91,7 +91,7 @@ const MoniMoni = () => {
             <div className="max-w-3xl">
 
               <p className="text-base md:text-lg font-medium text-white pb-8">
-                No contexto da Aprendizagem Baseada em Projetos (ABP), o monitoramento pedagógico vai muito além de uma simples verificação de tarefas. Ele é um processo contínuo de observação, registro e análise do desenvolvimento dos estudantes e do próprio projeto, com o objetivo de identificar avanços, desafios e necessidades de ajuste. É a bússola que orienta o educador e os alunos no percurso da aprendizagem.
+                No contexto da <strong>Aprendizagem Baseada em Projetos (ABP)</strong>, o monitoramento pedagógico vai muito além de uma simples verificação de tarefas. Ele é um <strong>processo contínuo de observação, registro e análise do desenvolvimento dos estudantes e do próprio projeto</strong>, com o objetivo de identificar avanços, desafios e necessidades de ajuste. <strong>É a bússola </strong>que orienta o educador e os alunos no <strong>percurso da aprendizagem</strong>. A partir desse acompanhamento constante, é possível <stron>promover intervenções mais assertivas, fortalecer a autonomia dos estudantes </stron>e garantir que cada etapa do projeto contribua de forma efetiva para a <strong>construção do conhecimento</strong>. Assim, o <strong>monitoramento se transforma</strong> em um instrumento de reflexão e melhoria contínua, que <strong>valoriza o processo tanto quanto o resultado final</strong>.
               </p>
               
             </div>
