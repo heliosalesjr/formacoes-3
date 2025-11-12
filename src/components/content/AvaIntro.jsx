@@ -31,14 +31,14 @@ const AvaIntro = () => {
       {/* Título Principal */}
       <div className="text-center space-y-4">
         <div className="flex items-center justify-center gap-3">
-          <div className="w-1 h-12 bg-gradient-to-b from-slate-500 to-green-500 rounded-full"></div>
+          
           <h1 className="text-4xl font-bold bg-gradient-to-r from-green-700 to-blue-700 bg-clip-text text-transparent">
             Retomando registros e monitoramento para avaliar
           </h1>
-          <div className="w-1 h-12 bg-gradient-to-b from-green-500 to-slate-500 rounded-full"></div>
+          
         </div>
         <p className="text-slate-600 text-lg max-w-4xl mx-auto leading-relaxed">
-          A eficácia da avaliação, especialmente a formativa, depende diretamente da qualidade dos registros e do monitoramento contínuo. Os registros não são apenas burocracia; são a memória do processo de aprendizagem, fornecendo evidências concretas para a avaliação.
+          A eficácia da avaliação, especialmente a formativa, depende da qualidade dos registros e do monitoramento contínuo. Eles não são mera burocracia, mas a memória do processo de aprendizagem, oferecendo evidências concretas para a avaliação.
         </p>
       </div>
 
@@ -53,7 +53,7 @@ const AvaIntro = () => {
           </div>
           
           <p className="text-slate-700 text-base leading-relaxed">
-            O Diário de Bordo, já mencionado como crucial para o monitoramento, é igualmente vital para a avaliação. Ele permite ao professor:
+            O Diário de Bordo é fundamental para o acompanhamento e a avaliação, pois permite ao professor:
           </p>
           
           <div className="space-y-4">
@@ -61,7 +61,8 @@ const AvaIntro = () => {
               <div className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
               <div>
                 <p className="text-slate-700 text-base leading-relaxed">
-                  <span className="font-semibold text-slate-800">Acompanhar o progresso individual e coletivo:</span> Registros regulares sobre a participação dos alunos, suas contribuições, dificuldades e superações oferecem um panorama detalhado do desenvolvimento de cada um.
+                  <strong>Acompanhar o progresso da turma</strong>: registros contínuos revelam avanços, dificuldades e superações.
+
                 </p>
               </div>
             </div>
@@ -70,7 +71,7 @@ const AvaIntro = () => {
               <div className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
               <div>
                 <p className="text-slate-700 text-base leading-relaxed">
-                  <span className="font-semibold text-slate-800">Identificar padrões:</span> Ao longo do tempo, o Diário de Bordo pode revelar padrões de aprendizagem, como conceitos que geram mais dúvidas ou habilidades que precisam ser mais desenvolvidas.
+                  <strong>Identificar padrões de aprendizagem</strong>: ao longo do tempo, mostram dúvidas recorrentes e habilidades em desenvolvimento.
                 </p>
               </div>
             </div>
@@ -79,7 +80,7 @@ const AvaIntro = () => {
               <div className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
               <div>
                 <p className="text-slate-700 text-base leading-relaxed">
-                  <span className="font-semibold text-slate-800">Fundamentar o feedback:</span> Com base nos registros, o feedback ao estudante se torna mais específico, justo e eficaz, pois se apoia em observações concretas e não apenas em impressões.
+                  <strong>Oferecer feedback qualificado</strong>: com base nos registros, o retorno ao estudante se torna mais preciso e formativo.
                 </p>
               </div>
             </div>
@@ -88,7 +89,7 @@ const AvaIntro = () => {
               <div className="w-2 h-2 bg-green-500 rounded-full mt-2 flex-shrink-0"></div>
               <div>
                 <p className="text-slate-700 text-base leading-relaxed">
-                  <span className="font-semibold text-slate-800">Documentar o processo:</span> Em projetos de longa duração, o Diário de Bordo serve como um histórico que pode ser consultado para entender o percurso, as decisões tomadas e os resultados alcançados.
+                  <strong>Documentar o processo</strong>: em projetos mais longos, funciona como registro da trajetória e das aprendizagens.
                 </p>
               </div>
             </div>
@@ -129,12 +130,10 @@ const AvaIntro = () => {
           </div>
           
           <p className="text-slate-700 text-base leading-relaxed">
-            As rubricas de avaliação são ferramentas poderosas que trazem clareza, objetividade e transparência ao processo avaliativo, tanto para o professor quanto para o estudante. Elas são especialmente úteis na Aprendizagem Baseada em Projetos, onde a avaliação de produtos complexos e habilidades diversas pode ser subjetiva sem critérios bem definidos.
+            As rubricas de avaliação ajudam a trazer clareza e objetividade ao processo avaliativo, tanto para o professor quanto para o estudante. Elas são especialmente úteis na Aprendizagem Baseada em Projetos (ABP), pois permitem definir de forma mais concreta os critérios de observação e análise do trabalho realizado. Também chamadas de rubricas avaliativas, consistem na definição de critérios ou atributos que orientam a avaliação das tarefas e o acompanhamento do desempenho dos estudantes.
           </p>
           
-          <p className="text-slate-700 text-base leading-relaxed">
-            As rubricas de avaliação, ou rubricas avaliativas, são comumente definidas como o desenvolvimento de critérios ou atributos da tarefa a ser realizada pelo estudante.
-          </p>
+          
         </div>
       </div>
 

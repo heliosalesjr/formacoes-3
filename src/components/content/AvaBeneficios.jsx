@@ -30,19 +30,19 @@ const AvaBeneficios = () => {
       {/* Título Principal */}
       <div className="text-center space-y-4">
         <div className="flex items-center justify-center gap-3">
-          <div className="w-1 h-12 bg-gradient-to-b from-slate-500 to-blue-500 rounded-full"></div>
+          
           <h1 className="text-4xl font-bold bg-gradient-to-r from-blue-700 to-green-700 bg-clip-text text-transparent">
             Benefícios da Utilização de Rubricas
           </h1>
-          <div className="w-1 h-12 bg-gradient-to-b from-blue-500 to-slate-500 rounded-full"></div>
+          
         </div>
       </div>
 
       {/* Seção 1: Para o Professor */}
       <div className="space-y-6">
         <div className="flex items-center gap-3">
-          <div className="w-1 h-8 bg-gradient-to-b from-blue-500 to-green-500 rounded-full"></div>
-          <h2 className="text-2xl font-bold text-slate-800">
+          
+          <h2 className="text-2xl font-bold text-slate-700 ml-6">
             Para o Professor
           </h2>
         </div>
@@ -80,8 +80,8 @@ const AvaBeneficios = () => {
       {/* Seção 2: Para o Estudante */}
       <div className="space-y-6">
         <div className="flex items-center gap-3">
-          <div className="w-1 h-8 bg-gradient-to-b from-green-500 to-blue-500 rounded-full"></div>
-          <h2 className="text-2xl font-bold text-slate-800">
+          
+          <h2 className="text-2xl font-bold text-slate-700 ml-6">
             Para o Estudante
           </h2>
         </div>

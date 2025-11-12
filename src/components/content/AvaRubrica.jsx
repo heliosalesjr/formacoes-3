@@ -53,7 +53,7 @@ const AvaRubrica = () => {
       
       {/* Conteúdo Inicial */}
       <div className="space-y-8">
-        <p className="text-slate-700 text-2xl font-semibold text-center">
+        <p className="text-slate-600 text-3xl font-semibold text-center">
           Uma rubrica de avaliação eficaz geralmente contém os seguintes itens:
         </p>
 
@@ -99,11 +99,11 @@ const AvaRubrica = () => {
       {/* Título do Exemplo */}
       <div className="text-center space-y-4">
         <div className="flex items-center justify-center gap-3">
-          <div className="w-1 h-10 bg-gradient-to-b from-blue-500 to-green-500 rounded-full"></div>
+          
           <h2 className="text-3xl font-bold bg-gradient-to-r from-blue-700 to-green-700 bg-clip-text text-transparent">
-            Exemplo Prático
+            Exemplo Prático:
           </h2>
-          <div className="w-1 h-10 bg-gradient-to-b from-green-500 to-blue-500 rounded-full"></div>
+          
         </div>
       </div>
 

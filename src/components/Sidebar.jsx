@@ -40,6 +40,7 @@ const navigation = {
       { id: 'avaliacao-intro', title: 'Introdução' },
       { id: 'avaliacao-rubrica', title: 'Rubricas' },
       { id: 'avaliacao-beneficios', title: 'Benefícios' },
+      { id: 'relevancia-rubrica', title: 'Relevância das Rubricas' },
       
       
 

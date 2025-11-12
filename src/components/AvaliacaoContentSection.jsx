@@ -5,6 +5,7 @@ import FadeInWhenVisible from "./FadeInWhenVisible"
 import AvaIntro from "./content/AvaIntro"
 import AvaRubrica from "./content/AvaRubrica"
 import AvaBeneficios from "./content/AvaBeneficios"
+import AvaRelevancia from "./content/AvaRelevancia"
 
 
 
@@ -24,7 +25,9 @@ export default function AvaliacaoContentSection() {
             <FadeInWhenVisible>
               <AvaBeneficios />
             </FadeInWhenVisible>
-
+            <FadeInWhenVisible>
+              <AvaRelevancia />
+            </FadeInWhenVisible>
           <div className="flex justify-center mt-8">
             <Button asChild>
               <Link href="/encerramento">Próxima Página: Encerramento</Link>

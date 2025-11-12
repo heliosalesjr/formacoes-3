@@ -31,7 +31,7 @@ export default function Hero({ title, subtitle, buttonText, buttonHref = "#conte
           <div className="space-y-6 max-w-6xl mx-auto">
             <h1 
               className={`text-4xl sm:text-5xl md:text-6xl  font-bold tracking-wider text-white transition-all duration-1000 ease-out ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`}
-              style={{ fontFamily: 'Rustica, sans-serif' }}
+              style={{ fontFamily: "Open Sans, sans-serif"  }}
               // OU use esta linha se quiser testar a Rustica:
               // style={{ fontFamily: 'Rustica, sans-serif' }}
             >
