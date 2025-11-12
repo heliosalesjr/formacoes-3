@@ -31,11 +31,11 @@ const MetAvaIntro = () => {
       {/* Título Principal */}
       <div className="text-center space-y-6">
         <div className="flex items-center justify-center gap-3">
-          <div className="w-1 h-12 bg-gradient-to-b from-slate-500 to-blue-500 rounded-full"></div>
+          
           <h1 className="text-4xl font-bold bg-gradient-to-r from-blue-700 to-green-700 bg-clip-text text-transparent">
             Avaliação na Aprendizagem Baseada em Projetos
           </h1>
-          <div className="w-1 h-12 bg-gradient-to-b from-blue-500 to-slate-500 rounded-full"></div>
+          
         </div>
         
         {/* Parágrafos de Introdução */}
@@ -44,9 +44,7 @@ const MetAvaIntro = () => {
             Tradicionalmente, a palavra <span className="font-semibold">"avaliação"</span> pode nos submeter a imagens de provas, exames e notas. No entanto, em uma concepção pedagógica moderna, especialmente na <span className="font-semibold italic">Aprendizagem Baseada em Projetos (ABP)</span>, a avaliação assume um papel muito mais amplo e significativo.
           </p>
           
-          <blockquote className="border-l-4 border-blue-500 pl-6 italic text-slate-600 bg-slate-50 rounded-r-lg p-4">
-            "Tradicionalmente, o termo avaliar tem sido associado a fazer prova, fazer exame, atribuir notas, repetir ou passar de ano. Mas em uma concepção pedagógica mais moderna, a educação é concebida como experiência de vivências múltiplas. Nessa abordagem o educando é um ser ativo e dinâmico, que participa da construção de seu próprio conhecimento."
-          </blockquote>
+          
           
           <p className="text-slate-700 text-lg leading-relaxed">
             Nessa perspectiva, a avaliação do processo de ensino e aprendizagem deve ser:

@@ -2,7 +2,7 @@
 import { useEffect, useRef } from 'react';
 import { useSidebar } from '@/contexts/SidebarContext';
 import React from 'react'
-import { FaSearch, FaRoute, FaTrophy, FaUsers, FaComments, FaClipboardList, FaBook, FaGoogleDrive, FaGamepad, FaCalendarCheck, FaEye, FaPresentationscreen } from 'react-icons/fa';
+import { FaSearch,  FaTrophy, FaUsers,  FaBook, FaEye } from 'react-icons/fa';
 
 const MetAvaTipos = () => {
   const ref = useRef();
@@ -28,15 +28,15 @@ const MetAvaTipos = () => {
       {/* Título Principal */}
       <div ref={ref} id="tipos-avaliacao" className="scroll-mt-20 text-center space-y-6">
         <div className="flex items-center justify-center gap-3">
-          <div className="w-1 h-12 bg-gradient-to-b from-slate-500 to-blue-500 rounded-full"></div>
+          
           <h1 className="text-4xl font-bold bg-gradient-to-r from-blue-700 to-green-700 bg-clip-text text-transparent">
             Tipos de Avaliação: Diagnóstica, Formativa e Somativa
           </h1>
-          <div className="w-1 h-12 bg-gradient-to-b from-blue-500 to-slate-500 rounded-full"></div>
+          
         </div>
         
         <p className="text-slate-700 text-lg leading-relaxed max-w-5xl mx-auto">
-          Para uma avaliação completa e eficaz na Aprendizagem Baseada em Projetos, é fundamental compreender e aplicar os diferentes tipos de avaliação: diagnóstica, formativa e somativa. Cada uma delas tem um propósito específico e contribui de maneira única para o processo de ensino-aprendizagem.
+          Para uma avaliação completa e eficaz na Aprendizagem Baseada em Projetos, é fundamental compreender e aplicar os <strong>diferentes tipos de avaliação</strong>: diagnóstica, formativa e somativa. Cada uma delas tem um <strong>propósito específico</strong> e contribui de maneira única para o processo de ensino-aprendizagem.
         </p>
       </div>
 
@@ -59,7 +59,7 @@ const MetAvaTipos = () => {
             <div className="bg-white rounded-lg p-6 shadow-md">
               <h3 className="text-lg font-bold text-blue-700 mb-3">Propósito</h3>
               <p className="text-slate-700 text-sm leading-relaxed mb-4">
-                A avaliação diagnóstica é realizada no início de um novo ciclo de aprendizagem, projeto ou unidade. Seu principal objetivo é identificar os conhecimentos prévios dos estudantes, suas habilidades, interesses e possíveis lacunas de aprendizagem. Ela serve como um ponto de partida para o planejamento e a personalização do ensino.
+                A avaliação diagnóstica é realizada no <strong>início de um novo ciclo</strong> de aprendizagem, projeto ou unidade. Seu principal objetivo é <strong>identificar os conhecimentos prévios</strong> dos estudantes, suas habilidades, interesses e possíveis <strong>lacunas de aprendizagem</strong>. Ela serve como um <strong>ponto de partida</strong> para o planejamento e a personalização do ensino.
               </p>
               <div className="flex items-center gap-2 text-blue-600">
                 <FaEye className="text-sm" />
@@ -74,7 +74,7 @@ const MetAvaTipos = () => {
             <div className="bg-white rounded-lg p-6 shadow-md">
               <h3 className="text-lg font-bold text-blue-700 mb-3">Benefícios</h3>
               <p className="text-slate-700 text-sm leading-relaxed">
-                Permite ao professor adaptar o conteúdo e as estratégias de ensino às necessidades reais da turma, garantindo que a educação financeira seja relevante e acessível a todos.
+                Permite ao professor <strong>adaptar o conteúdo</strong> e as estratégias de ensino às <strong>necessidades reais da turma</strong>, garantindo que a educação financeira seja relevante e acessível a todos.
               </p>
             </div>
           </div>
@@ -136,7 +136,7 @@ const MetAvaTipos = () => {
             <div className="bg-white rounded-lg p-6 shadow-md">
               <h3 className="text-lg font-bold text-green-700 mb-3">Propósito</h3>
               <p className="text-slate-700 text-sm leading-relaxed mb-4">
-                A avaliação formativa ocorre durante o processo de ensino-aprendizagem. Seu objetivo é monitorar continuamente o progresso dos estudantes, fornecer feedback imediato e construtivo, e permitir que o professor ajuste suas estratégias pedagógicas em tempo real. É um processo de "avaliação para a aprendizagem".
+                A avaliação formativa ocorre <strong>durante o processo</strong> de ensino-aprendizagem. Seu objetivo é <strong>monitorar continuamente</strong> o progresso dos estudantes, fornecer <strong>feedback imediato e construtivo</strong>, e permitir que o professor ajuste suas estratégias pedagógicas em tempo real. É um processo de <strong>"avaliação para a aprendizagem"</strong>.
               </p>
               <div className="flex items-center gap-2 text-green-600">
                 <FaEye className="text-sm" />
@@ -151,7 +151,7 @@ const MetAvaTipos = () => {
             <div className="bg-white rounded-lg p-6 shadow-md">
               <h3 className="text-lg font-bold text-green-700 mb-3">Benefícios</h3>
               <p className="text-slate-700 text-sm leading-relaxed">
-                Ajuda os estudantes a identificar seus pontos fortes e áreas de melhoria, promovendo a autorregulação da aprendizagem. Para o professor, oferece dados para intervir prontamente, sanar dúvidas e aprofundar conhecimentos.
+                Ajuda os estudantes a identificar seus <strong>pontos fortes e áreas de melhoria</strong>, promovendo a <strong>autorregulação da aprendizagem</strong>. Para o professor, oferece dados para <strong>intervir prontamente</strong>, sanar dúvidas e aprofundar conhecimentos.
               </p>
             </div>
           </div>
@@ -160,7 +160,7 @@ const MetAvaTipos = () => {
           <div className="bg-white rounded-lg p-6 shadow-md">
             <h3 className="text-lg font-bold text-green-700 mb-3">Conexão com o Programa</h3>
             <p className="text-slate-700 text-sm leading-relaxed">
-              Este tipo de avaliação está intrinsecamente ligado ao conceito de "monitoramento" que discutimos na seção 3.1. As "verificações e métodos avaliativos" para acompanhar o avanço dos projetos são exemplos de avaliação formativa. O uso do "Diário de Bordo" e do "Padlet" para registrar o processo e as discussões em sala de aula são ferramentas formativas essenciais.
+              Este tipo de avaliação está intrinsecamente ligado ao conceito de <strong>"monitoramento"</strong> que discutimos na seção 3.1. As "verificações e métodos avaliativos" para acompanhar o avanço dos projetos são exemplos de avaliação formativa. O uso do <strong>"Diário de Bordo"</strong> e do <strong>"Padlet"</strong> para registrar o processo e as discussões em sala de aula são ferramentas formativas essenciais.
             </p>
           </div>
         </div>
@@ -185,7 +185,7 @@ const MetAvaTipos = () => {
             <div className="bg-white rounded-lg p-6 shadow-md">
               <h3 className="text-lg font-bold bg-gradient-to-r from-blue-700 to-green-700 bg-clip-text text-transparent mb-3">Propósito</h3>
               <p className="text-slate-700 text-sm leading-relaxed mb-4">
-                A avaliação somativa é realizada ao final de uma unidade de ensino, de um módulo ou de um projeto completo. Seu objetivo é verificar o nível de aprendizagem alcançado pelos estudantes em relação aos objetivos propostos. É uma "avaliação da aprendizagem".
+                A avaliação somativa é realizada ao <strong>final de uma unidade</strong> de ensino, de um módulo ou de um projeto completo. Seu objetivo é <strong>verificar o nível de aprendizagem alcançado</strong> pelos estudantes em relação aos objetivos propostos. É uma <strong>"avaliação da aprendizagem"</strong>.
               </p>
               <div className="flex items-center gap-2 text-blue-600">
                 <FaEye className="text-sm" />
@@ -200,7 +200,7 @@ const MetAvaTipos = () => {
             <div className="bg-white rounded-lg p-6 shadow-md">
               <h3 className="text-lg font-bold bg-gradient-to-r from-blue-700 to-green-700 bg-clip-text text-transparent mb-3">Benefícios</h3>
               <p className="text-slate-700 text-sm leading-relaxed">
-                Fornece um panorama geral do que foi aprendido e serve como base para a certificação ou para a tomada de decisões sobre o próximo estágio da aprendizagem. É importante que, mesmo na avaliação somativa, o foco não seja apenas a nota, mas a demonstração de competências e a reflexão sobre o percurso.
+                Fornece um <strong>panorama geral</strong> do que foi aprendido e serve como base para a certificação ou para a tomada de decisões sobre o próximo estágio da aprendizagem. É importante que, mesmo na avaliação somativa, o foco não seja apenas a nota, mas a <strong>demonstração de competências</strong> e a <strong>reflexão sobre o percurso</strong>.
               </p>
             </div>
           </div>
@@ -209,7 +209,7 @@ const MetAvaTipos = () => {
           <div className="bg-white rounded-lg p-6 shadow-md">
             <h3 className="text-lg font-bold bg-gradient-to-r from-blue-700 to-green-700 bg-clip-text text-transparent mb-4">Conexão com o Programa</h3>
             <p className="text-slate-700 text-sm leading-relaxed mb-4">
-              Embora a ABP valorize o processo, a avaliação somativa ainda tem seu lugar. O "Passo 8: Avaliação de percurso e de resultados" do roteiro do PPDA, inclui a necessidade de "um bom plano de avaliação [que] contém indicadores ou evidências de aprendizagem de acordo com cada objetivo elencado". Além disso, o "Passo 10: Culminância para celebração e apresentação dos resultados" é um momento somativo, onde os estudantes apresentam o produto final de seu aprendizado em educação financeira.
+              Embora a ABP valorize o processo, a avaliação somativa ainda tem seu lugar. O <strong>"Passo 8: Avaliação de percurso e de resultados"</strong> do roteiro do PPDA, inclui a necessidade de "um bom plano de avaliação [que] contém <strong>indicadores ou evidências de aprendizagem</strong> de acordo com cada objetivo elencado". Além disso, o <strong>"Passo 10: Culminância para celebração"</strong> é um momento somativo, onde os estudantes apresentam o produto final de seu aprendizado em educação financeira.
             </p>
             
           </div>

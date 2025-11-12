@@ -8,7 +8,7 @@ const navigation = {
     path: '/',
     components: [
       { id: 'apresentacao-1', title: 'Apresentação do Curso' },
-      { id: 'modulo-3-objetivos', title: 'Objetivos do Módulo 3' },
+      
       { id: 'ao-final', title: 'Ao final do módulo...' },
       
     ]

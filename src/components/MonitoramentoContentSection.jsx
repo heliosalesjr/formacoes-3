@@ -18,7 +18,10 @@ export default function Monitoramento() {
                   <MoniMoni />
               </FadeInWhenVisible>
                   <MoniDef />
-                  <MoniPPDA />
+              <FadeInWhenVisible>
+                <MoniPPDA />
+              </FadeInWhenVisible>
+                  
      
             
             <div className="flex justify-center mt-8">

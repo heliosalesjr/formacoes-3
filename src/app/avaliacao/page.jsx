@@ -12,7 +12,7 @@ export default function Modulo4() {
       <main >
         <Hero
                 title="Avaliação"
-                subtitle="Como funciona o programa “Aprendendo a lidar com dinheiro” da BEĨ Educação e a metodologia de aplicação do material"
+                subtitle="Ferramentas Avaliativas que podem ajudar o desenvolvimento de projetos"
                 />
         
         <AvaliacaoContentSection />

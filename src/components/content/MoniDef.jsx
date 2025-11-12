@@ -31,11 +31,11 @@ const MoniDef = () => {
       {/* Título Principal */}
       <div className="text-center space-y-6">
         <div className="flex items-center justify-center gap-3">
-          <div className="w-1 h-12 bg-gradient-to-b from-slate-500 to-blue-500 rounded-full"></div>
+          
           <h1 className="text-4xl font-bold bg-gradient-to-r from-blue-700 to-green-700 bg-clip-text text-transparent">
             O Monitoramento
           </h1>
-          <div className="w-1 h-12 bg-gradient-to-b from-blue-500 to-slate-500 rounded-full"></div>
+          
         </div>
         
         {/* Parágrafos de Introdução */}
@@ -61,12 +61,12 @@ const MoniDef = () => {
           
           <div className="text-center">
             <h3 className="text-xl font-bold text-slate-800 mb-3">
-              Planejamento do PPDA ou PDA
+              Planejamento do Professor
             </h3>
             
             <p className="text-slate-600 text-sm leading-relaxed">
-              Se os objetivos (conceituais, procedimentais e atitudinais) elencados estão sendo alcançados através das verificações e de{' '}
-              <span className="font-semibold">métodos avaliativos</span>.
+              Observar se os objetivos (conceituais, procedimentais e atitudinais) elencados estão sendo alcançados através das verificações e de métodos avaliativos.
+             
             </p>
           </div>
         </div>
@@ -79,12 +79,11 @@ const MoniDef = () => {
           
           <div className="text-center">
             <h3 className="text-xl font-bold text-slate-800 mb-3">
-              Plano de Ação Coletivo
+              Projeto dos Estudantes
             </h3>
             
             <p className="text-slate-600 text-sm leading-relaxed">
-              Observar se os alunos estão cumprindo as tarefas propostas no Plano de Ação,{' '}
-              <span className="font-semibold">se as tarefas estão dentro do prazo</span> estipulado e se essas tarefas são palpáveis.
+              Observar se os alunos estão cumprindo as tarefas de projeto propostas no livro, e se essas tarefas estão conectadas dentro da ideia de projeto sugerida.
             </p>
           </div>
         </div>
@@ -101,9 +100,7 @@ const MoniDef = () => {
             </h3>
             
             <p className="text-slate-600 text-sm leading-relaxed">
-              Registrar o processo e{' '}
-              <span className="font-semibold">diagnosticar possíveis falhas</span> no percurso para tentar saná-las, ou até mesmo{' '}
-              <span className="font-semibold">identificar avanços</span> que podem ser feitos antes do prazo estabelecido no cronograma.
+              Registrar o processo e identificar avanços e eventuais falhas dentro do processo, para poder ajustar o cronograma.
             </p>
           </div>
         </div>

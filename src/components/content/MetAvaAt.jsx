@@ -31,19 +31,19 @@ const MetAvaAt = () => {
       {/* Cabeçalho chamativo */}
       <div className="text-center space-y-6">
         <div className="flex items-center justify-center gap-3">
-          <div className="w-2 h-16 bg-gradient-to-b from-blue-500 to-green-500 rounded-full"></div>
+          
           <div className="flex items-center justify-center w-20 h-20 bg-gradient-to-br from-blue-500 to-green-500 rounded-full shadow-xl">
             <FaLightbulb className="text-white text-3xl" />
           </div>
-          <div className="w-2 h-16 bg-gradient-to-b from-green-500 to-blue-500 rounded-full"></div>
+          
         </div>
         
         <h2 className="text-4xl font-bold bg-gradient-to-r from-blue-700 to-green-700 bg-clip-text text-transparent">
-          Atividade Prática
+          Reflita
         </h2>
         
         <p className="text-xl font-semibold text-slate-700">
-          Pense em um projeto recente.
+          Pense em um projeto recente:
         </p>
       </div>
 

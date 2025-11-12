@@ -38,15 +38,13 @@ const MetAvErro = () => {
           </div>
           
           <p className="text-slate-700 text-lg leading-relaxed">
-            Um dos aspectos mais libertadores dessa nova visão de avaliação é a ressignificação do erro. Longe de ser um fracasso, o erro passa a ser visto como uma <span className="font-semibold">"pista"</span> valiosa.
+            No <strong>processo de avaliação da aprendizagem</strong>, o erro deixa de ser sinal de fracasso e passa a ser <strong>parte essencial do aprendizado</strong>. Ele mostra como o estudante <strong>articula o que já sabe com o que está aprendendo</strong>, revelando caminhos, dúvidas e formas de pensar que ajudam o professor a entender o processo.
           </p>
           
-          <blockquote className="border-l-4 border-green-500 pl-6 italic text-slate-600 bg-green-50 rounded-r-lg p-4">
-            "O erro passa a ser considerado como pista que indica como o educando está relacionando os conhecimentos que já possui com os novos conhecimentos que vão sendo adquiridos, admitindo uma melhor compreensão dos conhecimentos solidificados, interação necessária em um processo de construção e de reconstrução."
-          </blockquote>
+          
           
           <p className="text-slate-700 text-lg leading-relaxed">
-            Ao entender o erro como parte do processo de construção do conhecimento, o professor pode oferecer <span className="font-semibold">feedback mais construtivo e direcionado</span>, ajudando o estudante a reconstruir seu entendimento e aprofundar sua aprendizagem em educação financeira.
+            Com essa leitura, o professor <strong>usa o erro como pista para ajustar a mediação</strong>, oferece do <strong>devolutivas mais direcionadas e construtivas</strong>. Assim, o erro se torna <strong>oportunidade de revisão e reconstrução do conhecimento</strong>, especialmente na <strong>educação financeira</strong>, em que aprender também significa <strong>experimentar, testar hipóteses e refletir sobre as próprias escolhas</strong>.
           </p>
           
         </div>

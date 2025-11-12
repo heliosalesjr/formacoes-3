@@ -12,7 +12,7 @@ export default function Smart() {
       <main >
         <Hero
                 title="Métodos Avaliativos"
-                subtitle="Como funciona o programa “Aprendendo a lidar com dinheiro” da BEĨ Educação e a metodologia de aplicação do material"
+                subtitle="Tipos de avaliação presentes na rotina escolar e suas formas de aplicação em sala de aula."
                 />
         <MAContentSection />
       </main>

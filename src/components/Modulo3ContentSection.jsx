@@ -22,9 +22,6 @@ export default function Modulo3ContentSection() {
                 </FadeInWhenVisible>
                  
                  
-                <FadeInWhenVisible>
-                  <Modulo3Objetivos />
-                </FadeInWhenVisible>
 
                 <FadeInWhenVisible>
                   <PageApresentacao2 />

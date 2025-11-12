@@ -31,11 +31,11 @@ const MoniPPDA = () => {
       {/* Título Principal */}
       <div className="text-center space-y-4">
         <div className="flex items-center justify-center gap-3">
-          <div className="w-1 h-12 bg-gradient-to-b from-slate-500 to-blue-500 rounded-full"></div>
+          
           <h1 className="text-4xl font-bold bg-gradient-to-r from-blue-700 to-green-700 bg-clip-text text-transparent">
-            Monitoramento do PPDA
+            Monitoramento do Projeto
           </h1>
-          <div className="w-1 h-12 bg-gradient-to-b from-blue-500 to-slate-500 rounded-full"></div>
+          
         </div>
         <p className="text-slate-600 text-lg max-w-3xl mx-auto leading-relaxed">
           Acompanhe e avalie o desenvolvimento do seu projeto educacional através de estratégias estruturadas de monitoramento.
@@ -48,16 +48,16 @@ const MoniPPDA = () => {
           <div className="flex items-center gap-3">
             <div className="w-1 h-8 bg-gradient-to-b from-blue-500 to-green-500 rounded-full"></div>
             <h2 className="text-2xl font-bold text-slate-800">
-              Planejamento do PPDA
+              Planejamento do Professor
             </h2>
           </div>
           
           <p className="text-slate-700 text-base leading-relaxed">
-            Este aspecto foca em verificar se os objetivos propostos no Planejamento do PPDA sejam eles conceituais, procedimentais ou atitudinais – estão sendo alcançados.
+            Este aspecto foca em verificar se os objetivos propostos no Planejamento, sejam eles conceituais, procedimentais ou atitudinais – estão sendo alcançados.
           </p>
           
           <p className="text-slate-700 text-base leading-relaxed">
-            Lembre-se do que vimos no Módulo 2 sobre a elaboração do PPDA. O monitoramento aqui é a checagem em tempo real: as atividades propostas estão levando os alunos a compreender os conceitos de educação financeira? Eles estão desenvolvendo as habilidades procedimentais (como calcular, planejar um orçamento)? E as atitudes (responsabilidade, colaboração, tomada de decisão) estão sendo cultivadas?
+            O monitoramento aqui é a checagem em tempo real: as atividades propostas estão levando os alunos a compreender os conceitos de educação financeira? Eles estão desenvolvendo as habilidades procedimentais (como calcular, planejar um orçamento)? E as atitudes (responsabilidade, colaboração, tomada de decisão) estão sendo cultivadas?
           </p>
         </div>
         
@@ -90,12 +90,12 @@ const MoniPPDA = () => {
           <div className="flex items-center gap-3">
             <div className="w-1 h-8 bg-gradient-to-b from-green-500 to-blue-500 rounded-full"></div>
             <h2 className="text-2xl font-bold text-slate-800">
-              Plano de Ação Coletivo
+              Projeto dos Estudantes
             </h2>
           </div>
           
           <p className="text-slate-700 text-base leading-relaxed">
-            Aqui, o monitoramento se concentra na execução prática das tarefas. É preciso observar se os estudantes estão cumprindo as atividades propostas no Plano de Ação (que pode ser estruturado com a ferramenta 5W2H, vista no Módulo 2), se os prazos estão sendo respeitados e se as tarefas são realistas e "palpáveis".
+            Aqui, o monitoramento se concentra na execução prática das tarefas. É preciso observar se os estudantes estão cumprindo as atividades de projeto propostas no livro, e se essas tarefas estão conectadas dentro da ideia de projeto sugerida.
           </p>
           
           <p className="text-slate-700 text-base leading-relaxed">
@@ -161,11 +161,11 @@ const MoniPPDA = () => {
           </div>
           
           <p className="text-slate-700 text-base leading-relaxed">
-            Além do Diário de Bordo, o Padlet surge como uma ferramenta digital extremamente útil para o monitoramento colaborativo. O Padlet "funciona como um organizador virtual de tarefas. Ele permite criar e gerenciar murais em diversos formatos, promovendo a curiosidade, a criação e a comunicação entre os estudantes."
+            Além do <strong>Diário de Bordo</strong>, o <strong>Padlet</strong> surge como uma ferramenta digital extremamente útil para o monitoramento colaborativo. O Padlet "funciona como um organizador virtual de tarefas. <strong>Ele permite criar e gerenciar murais em diversos formatos, promovendo a curiosidade, a criação e a comunicação entre os estudantes</strong>."
           </p>
           
           <p className="text-slate-700 text-base leading-relaxed">
-            Ele pode ser usado para que os alunos compartilhem seus progressos, dúvidas, descobertas e produtos parciais, permitindo ao professor um acompanhamento visual e interativo.
+            Ele pode ser usado para que os alunos compartilhem seus progressos, dúvidas, descobertas e produtos parciais, <strong>permitindo ao professor um acompanhamento visual e interativo</strong>.
           </p>
         </div>
       </div>

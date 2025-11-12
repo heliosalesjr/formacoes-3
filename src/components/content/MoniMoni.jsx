@@ -78,22 +78,20 @@ const MoniMoni = () => {
         )}
       </AnimatePresence>
 
-      {/* Texto alternativo com fundo azul */}
+      {/* Texto alternativo com fundo verde */}
       <AnimatePresence>
         {expanded && (
           <motion.div
-            className="absolute inset-0 z-20 flex items-center justify-center px-6 text-center text-white bg-green-600"
+            className="absolute inset-0 z-20 flex items-center justify-center px-6 text-center text-white bg-green-600 overflow-auto"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 1.2 }}
           >
-            <div className="max-w-3xl">
-
-              <p className="text-base md:text-lg font-medium text-white pb-8">
-                No contexto da <strong>Aprendizagem Baseada em Projetos (ABP)</strong>, o monitoramento pedagógico vai muito além de uma simples verificação de tarefas. Ele é um <strong>processo contínuo de observação, registro e análise do desenvolvimento dos estudantes e do próprio projeto</strong>, com o objetivo de identificar avanços, desafios e necessidades de ajuste. <strong>É a bússola </strong>que orienta o educador e os alunos no <strong>percurso da aprendizagem</strong>. A partir desse acompanhamento constante, é possível <stron>promover intervenções mais assertivas, fortalecer a autonomia dos estudantes </stron>e garantir que cada etapa do projeto contribua de forma efetiva para a <strong>construção do conhecimento</strong>. Assim, o <strong>monitoramento se transforma</strong> em um instrumento de reflexão e melhoria contínua, que <strong>valoriza o processo tanto quanto o resultado final</strong>.
+            <div className="max-w-3xl py-8">
+              <p className="text-base md:text-lg font-medium text-white leading-relaxed">
+                No contexto da <span className="bg-white text-green-700 px-2 py-1 rounded font-semibold">Aprendizagem Baseada em Projetos (ABP)</span>, o monitoramento pedagógico vai muito além de uma simples verificação de tarefas. Ele é um <span className="bg-white text-green-700 px-2 py-1 rounded font-semibold">processo contínuo de observação, registro e análise do desenvolvimento dos estudantes e do próprio projeto</span>, com o objetivo de identificar avanços, desafios e necessidades de ajuste. <span className="bg-white text-green-700 px-2 py-1 rounded font-semibold">É a bússola</span> que orienta o educador e os alunos no <span className="bg-white text-green-700 px-2 py-1 rounded font-semibold">percurso da aprendizagem</span>. A partir desse acompanhamento constante, é possível <span className="bg-white text-green-700 px-2 py-1 rounded font-semibold">promover intervenções mais assertivas, fortalecer a autonomia dos estudantes</span> e garantir que cada etapa do projeto contribua de forma efetiva para a <span className="bg-white text-green-700 px-2 py-1 rounded font-semibold">construção do conhecimento</span>. Assim, o <span className="bg-white text-green-700 px-2 py-1 rounded font-semibold">monitoramento se transforma</span> em um instrumento de reflexão e melhoria contínua, que <span className="bg-white text-green-700 px-2 py-1 rounded font-semibold">valoriza o processo tanto quanto o resultado final</span>.
               </p>
-              
             </div>
           </motion.div>
         )}
@@ -114,5 +112,3 @@ const MoniMoni = () => {
 }
 
 export default MoniMoni
-
-
