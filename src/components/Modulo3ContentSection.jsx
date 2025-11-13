@@ -9,6 +9,7 @@ import PageApresentacao1 from "./content/PageApresentacao1"
 
 
 import PageApresentacao2 from "./content/PageApresentacao2"
+import PageMonitorarAvaliar from "./content/PageMonitorarAvaliar"
 
 
 export default function Modulo3ContentSection() {
@@ -25,6 +26,9 @@ export default function Modulo3ContentSection() {
 
                 <FadeInWhenVisible>
                   <PageApresentacao2 />
+                </FadeInWhenVisible>
+                <FadeInWhenVisible>
+                  <PageMonitorarAvaliar />
                 </FadeInWhenVisible>
                 
 

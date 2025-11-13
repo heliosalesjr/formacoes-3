@@ -10,6 +10,7 @@ const navigation = {
       { id: 'apresentacao-1', title: 'Apresentação do Curso' },
       
       { id: 'ao-final', title: 'Ao final do módulo...' },
+      { id: 'monitorar-avaliar', title: 'Monitorar e Avaliar' },
       
     ]
   },
