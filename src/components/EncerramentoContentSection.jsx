@@ -18,12 +18,14 @@ export default function EncerramentoContentSection() {
                 <EncerramentoIntro />
             </FadeInWhenVisible>
           
-            <FadeInWhenVisible>
-              <EncerramentoNesseModuloEu />
-            </FadeInWhenVisible>
+            
      
             <FadeInWhenVisible>
               <EncerramentoQuiz />
+            </FadeInWhenVisible>
+
+            <FadeInWhenVisible>
+              <EncerramentoNesseModuloEu />
             </FadeInWhenVisible>
             
           </div>
