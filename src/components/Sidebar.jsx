@@ -51,6 +51,7 @@ const navigation = {
     path: '/encerramento',
     components: [
       { id: 'encerramento-intro', title: 'Encerrando o Módulo 3' },
+      { id: 'what', title: 'Nesse módulo eu...' },
       { id: 'encerramento-quiz', title: 'Teste seus conhecimentos!' },
     ]
   },

@@ -2,6 +2,7 @@
 import React, { useState, useEffect, useRef } from 'react'
 
 import { useSidebar } from '@/contexts/SidebarContext';
+import { FaChevronUp, FaChevronDown } from 'react-icons/fa';
 
 
 const Mat8 = () => {
@@ -48,7 +49,35 @@ const Mat8 = () => {
           allowFullScreen
         ></iframe>
       </div>
+      <div className="text-left max-w-3xl mx-auto">
+        <button
+          onClick={() => setIsOpen(!isOpen)}
+          className="w-full flex justify-between items-center bg-slate-100 hover:bg-slate-200 transition-colors rounded-lg px-6 py-4 shadow border border-slate-200 text-slate-800 font-semibold"
+        >
+          Acesse aqui as Referências Gerais de nosso conteúdo
+          {isOpen ? (
+            <FaChevronUp className="text-slate-600" />
+          ) : (
+            <FaChevronDown className="text-slate-600" />
+          )}
+        </button>
 
+        {isOpen && (
+          <div className="bg-white border border-t-0 border-slate-200 rounded-b-lg px-6 py-4 space-y-4 text-sm text-slate-700">
+            <p><strong>BACICH, L; MORAN, J.</strong> (Org.) Metodologias ativas para uma educação inovadora: uma abordagem teórico-prática. Porto Alegre: Penso, 2018.</p>
+            <p><strong>BENDER, W., N.</strong> Aprendizagem Baseada em Projetos. Porto Alegre: Penso, 2015.</p>
+            <p><strong>BRASIL.</strong> Ministério da Educação. Base Nacional Comum Curricular. Brasília, 2018.</p>
+            <p>
+              <strong>MOÇO, Anderson.</strong> 14 Perguntas e Respostas sobre Projetos Didáticos. Nova Escola, 2011. <br />
+              Disponível em: <a href="https://novaescola.org.br/conteudo/424/14-perguntas-e-respostas-sobre-projetos-didaticos" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">https://novaescola.org.br/conteudo/424/14-perguntas-e-respostas-sobre-projetos-didaticos</a>
+            </p>
+            <p>
+              <strong>NAOMI, Aline.</strong> Aprendizagem Baseada em Projetos: entenda o que é e como funciona na prática. Nova Escola, 2021. <br />
+              Disponível em: <a href="https://novaescola.org.br/conteudo/20407/aprendizagem-baseada-em-projetos-entenda-o-que-e-e-como-funciona-na-pratica" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">https://novaescola.org.br/conteudo/20407/aprendizagem-baseada-em-projetos-entenda-o-que-e-e-como-funciona-na-pratica</a>
+            </p>
+          </div>
+        )}
+      </div>
       
     </div>
   )

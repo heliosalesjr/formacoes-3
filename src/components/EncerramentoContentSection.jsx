@@ -2,6 +2,7 @@
 
 import FadeInWhenVisible from "./FadeInWhenVisible"
 import EncerramentoIntro from "./content/EncerramentoIntro"
+import EncerramentoNesseModuloEu from "./content/EncerramentoNesseModuloEu"
 import EncerramentoQuiz from "./content/EncerramentoQuiz"
 
 export default function EncerramentoContentSection() {
@@ -17,6 +18,9 @@ export default function EncerramentoContentSection() {
                 <EncerramentoIntro />
             </FadeInWhenVisible>
           
+            <FadeInWhenVisible>
+              <EncerramentoNesseModuloEu />
+            </FadeInWhenVisible>
      
             <FadeInWhenVisible>
               <EncerramentoQuiz />
