@@ -24,14 +24,14 @@ export default function Modulo3ContentSection() {
                  
                  
 
-                <FadeInWhenVisible>
-                  <PageApresentacao2 />
-                </FadeInWhenVisible>
+                
                 <FadeInWhenVisible>
                   <PageMonitorarAvaliar />
                 </FadeInWhenVisible>
                 
-
+                <FadeInWhenVisible>
+                  <PageApresentacao2 />
+                </FadeInWhenVisible>
                 
                 
                 

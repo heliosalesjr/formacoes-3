@@ -80,7 +80,7 @@ const AvaRubrica = () => {
             <div className="w-2 h-2 bg-blue-500 rounded-full mt-3 flex-shrink-0"></div>
             <div>
               <p className="text-slate-700 text-base leading-relaxed">
-                <span className="font-semibold text-slate-800">Escalas de diferentes níveis de desempenho:</span> Descrevem os diferentes níveis de qualidade ou proficiência que um estudante pode demonstrar em cada aspecto avaliado. Geralmente, são escalas com 3 a 5 níveis (ex: "Iniciante", "Em Desenvolvimento", "Proficiente", "Avançado").
+                <span className="font-semibold text-slate-800">Escalas de diferentes níveis de desempenho:</span> Descrevem os diferentes níveis de qualidade ou proficiência que um estudante pode demonstrar em cada aspecto avaliado. Geralmente, são escalas com 4 níveis (ex: "Iniciante", "Em Desenvolvimento", "Proficiente", "Avançado").
               </p>
             </div>
           </div>

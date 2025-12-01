@@ -209,7 +209,7 @@ const MetAvaTipos = () => {
           <div className="bg-white rounded-lg p-6 shadow-md">
             <h3 className="text-lg font-bold bg-gradient-to-r from-blue-700 to-green-700 bg-clip-text text-transparent mb-4">Conexão com o Programa</h3>
             <p className="text-slate-700 text-sm leading-relaxed mb-4">
-              Embora a ABP valorize o processo, a avaliação somativa ainda tem seu lugar. O <strong>"Passo 8: Avaliação de percurso e de resultados"</strong> do roteiro do PPDA, inclui a necessidade de "um bom plano de avaliação [que] contém <strong>indicadores ou evidências de aprendizagem</strong> de acordo com cada objetivo elencado". Além disso, o <strong>"Passo 10: Culminância para celebração"</strong> é um momento somativo, onde os estudantes apresentam o produto final de seu aprendizado em educação financeira.
+              Embora a ABP valorize o processo, <strong>a avaliação somativa ainda tem seu lugar</strong>. No momento de planejar o ano, é importante o professor incluir a necessidade de um bom <strong>plano de avaliação</strong> que contém <strong>indicadores ou evidências de aprendizagem de acordo com cada objetivo elencado</strong>. Além disso, a <strong>Culminância</strong>, que veremos no Módulo 4, <strong>é um momento somativo</strong>, onde os estudantes apresentam o produto final de seu aprendizado em educação financeira.
             </p>
             
           </div>

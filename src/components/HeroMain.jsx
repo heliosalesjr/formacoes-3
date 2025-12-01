@@ -71,10 +71,10 @@ export default function HeroMain({
 
             {/* Subtitle - Módulo 2 */}
             <h1
-              className="text-2xl sm:text-3xl font-thin text-white mt-3 tracking-wide"
+              className="text-xl md:text-2xl font-thin text-white mt-3 tracking-wide"
               style={{ fontFamily: "Open Sans, sans-serif" }}
             >
-              Módulo 3
+              Módulo 3 - Como monitorar e avaliar as atividades e projetos dos estudantes
             </h1>
 
             {/* Button */}
